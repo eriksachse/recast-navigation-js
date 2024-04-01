@@ -53,7 +53,7 @@ cd emsdk
 source "~/Development/emsdk/emsdk_env.sh"
 
 # Configure emsdk in your shell startup scripts
- echo 'source "~/Development/emsdk/emsdk_env.sh"' >> $HOME/.zprofile
+echo 'source "~/Development/emsdk/emsdk_env.sh"' >> $HOME/.zprofile
 
 # Activate the emsdk version you just installed
 ./emsdk activate 3.1.44
@@ -69,6 +69,8 @@ After you have installed emscripten, you can sanity check that you have the corr
 ```sh
 > emcc --version
 ```
+
+Make sure to restart your Terminal.
 
 ## Building
 
