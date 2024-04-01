@@ -49,6 +49,12 @@ cd emsdk
 # Download and install recast-navigation's required version of emscripten
 ./emsdk install 3.1.44
 
+# Access emsdk tools from command line
+source "~/Development/emsdk/emsdk_env.sh"
+
+# Configure emsdk in your shell startup scripts
+ echo 'source "~/Development/emsdk/emsdk_env.sh"' >> $HOME/.zprofile
+
 # Activate the emsdk version you just installed
 ./emsdk activate 3.1.44
 
